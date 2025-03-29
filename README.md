@@ -37,20 +37,3 @@ python3 scripts/client.py path/to/model.h5 path/to/image.jpg
 ```
 Returns the predicted tumor class and confidence.
 
-
-## Project Structure
-
-brain-tumor-classifier/
-├── archive/
-│   ├── Training/         		# Raw training images (grouped by class)
-│   └── Testing/          		# Raw testing images (grouped by class)
-├── data/                 		# Contains train.npz and test.npz
-├── models/               		# (Optional) Saved model files
-├── scripts/
-│   ├── client.py         		# Predicts from a single image
-│   ├── prepare_dataset.py
-│   └── train_cnn_model.py      # Trained model (created after training)
-├── venv/                 		# Virtual environment (optional, not versioned)
-├── README.md             		# Project overview
-
-
