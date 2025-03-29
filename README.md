@@ -1,7 +1,6 @@
 # Brain Tumor Classifier
 
-Classifies brain MRI scans into four categories using a convolutional neural network in TensorFlow.
-
+Classifies brain MRI scans into four categories using a convolutional neural network in TensorFlow. Uses a dataset from kaggle.com (https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset) for training.
 
 
 ## Setup
@@ -14,6 +13,7 @@ pip3 install tensorflow opencv-python numpy scikit-learn
 
 
 ## Usage
+
 
 1. Prepare dataset
 
